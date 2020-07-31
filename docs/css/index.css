@@ -1,0 +1,191 @@
+ 
+/*--content--*/
+.content{width:1200px;margin:20px auto;overflow:hidden;}
+.contentl{width:852px;float:left;}
+.contentl1{width:852px;height:334px;background:url(../images/conL1_bg.png) no-repeat;overflow:hidden; position:relative}
+.contentl a{color: #5DC7E5;}
+.contentl h2 a{color: #E5E5E5;}
+.conLine{display:inline-block;width:48px;height:4px;margin:70px 0 0 32px;background:#53B486;background: linear-gradient(90deg, #53B486 0%, #5CC6E2 100%);}
+.contentl1 h2{padding:20px 0 0 30px;font-size:22px;line-height:31px;font-weight:200;color:#E5E5E5;}
+.contentl1 p{width:329px;padding:20px 0 0 30px;font:200 14px/20px "PingFang SC";color:rgba(229, 229, 229, 0.6);font-style: normal;}
+.btn_demo{display:inline-block;margin:20px 0 0 30px;font-size:16px;line-height:22px;color:#5DC7E5;font-family: "PingFang SC";font-weight: normal;}
+.btn_demo img,.conl2_btn img{margin-left:10px;}
+.btn_demo:hover{text-decoration:none;}
+
+.contentl2{width:852px;overflow:hidden;}
+.contentl2 ul{float:left;width:417px;margin-top:20px;background-color:#151514}
+.conl2_tit{width:332px;height:64px;margin:30px 0 0 30px;font-weight:200;font-size:22px;line-height:31px;color:rgba(229, 229, 229, 0.9);}	
+.conl2_tit a{color:rgba(229, 229, 229, 0.9);}                            
+.conl2_tit a:hover{ text-decoration:none}
+.conl2_txt{width:357px;padding:12px 0 0 30px;font:200 12px/17px "PingFang SC";color:#E5E5E5;opacity: 0.6;font-family: "PingFang SC";font-style: normal;font-weight: normal;}
+.conl2_btn{padding-bottom:20px;}
+.conl2_btn a,.contentr .more a{display:inline-block;margin:18px 0 0 30px;font-size:16px;line-height:22px;color:#5DC7E5;font-family: "PingFang SC";font-style: normal;font-weight: normal;}
+.contentl2 .contentl2r{float:right;}
+.conl2_btn a:hover{text-decoration:none;}
+.contentl2r .conl2_img{padding-top:34px;}
+
+.contentl3{width:852px;height:334px;margin-top:20px;background:url(../images/conL2_bg.png) no-repeat; background-size:852px 334px;overflow:hidden; position:relative}
+.contentl3 h2{width:313px;color: #E5E5E5;}
+.contentl3 .conLine{margin-top:55px;}
+.btn_go{display:inline-block;margin:20px 0 0 30px;font-size:16px;line-height:22px;color:#5DC7E5;font-family: "PingFang SC";font-style: normal;font-weight: normal;}
+		
+.contentl4{width:852px;height:334px;margin-top:20px;background:url(../images/conL3_bg.png) no-repeat;background-size:852px 334px; overflow:hidden; position:relative}
+.conL14_r{position: absolute; top:20px;right:10px;width:430px;padding-left:0;}
+.conL14_r h2{padding-left:0;}
+.contentl4 .conLine{margin:55px 0 0 0;}
+.conL14_r p{width:408px;padding:20px 0 0 0;font:bold 14px "PingFang SC";color:##E5E5E5;font-style: normal;font-weight: normal;opacity: 0.6;overflow:hidden;}
+.conL14_r .btn_go{display:inline-block;color: #5DC7E5;margin:30px 0 0 0; }
+.btn_go:hover{text-decoration:none;}	
+	
+.contentr{float:right;width:330px;padding-bottom:15px;overflow:hidden;background: rgba(50,49,49,0.6);box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);}
+.contentr dl{width:270px;margin:29px auto 30px;overflow:hidden;}
+.contentr dt{width:270px;}
+.contentr dt img{width:270px;height:250px;}
+.contentr dd{width:250px;color:#fff;}
+.contentr dd h2{margin-top:7px;}
+.contentr dd h2 a{font-family:"PingFang SC";font-style:normal;font-weight:500;font-size:16px;line-height:22px;color:rgba(229, 229, 229, 0.9);}
+.contentr dd p{margin-top:12px;font-style: normal;font-weight: normal;font-size: 12px;line-height: 26px;color:rgba(233, 233, 233, 0.6);overflow:hidden;}
+.contentr .more a,.contentr .more{margin:9px 0 0 0;color:#5DC7E5}
+.contentr1 .more{text-align:left;}
+.contentr1 dt{float:right;}
+.contentr1 dt img{width:100%;width:270px;}
+.contentr1 dd{float:left;}
+.contentr .contentr2 .more{text-align:left; }
+.liner{width:270px;height:1px;margin:0 auto;background: #151616;opacity: 0.5;
+box-shadow: 1.5px 1.5px 1px rgba(174, 174, 192, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: matrix(1, 0, 0, -1, 0, 0);}
+.more em{display:inline-block; width:18px;height:18px;background:url(../images/arrow_r2.png) no-repeat; background-size:18px 18px; vertical-align:-6px;margin-left:5px;}
+
+
+
+@media screen and (max-width:480px){
+.banner{position:relative; z-index:9999;left:50%;margin-left:-207px;}
+.banner h2{width:280px;position:absolute;top:40px;left:23px;font-size:14px;line-height:25px;font-weight:600;}
+.btnGroup{position:absolute;top:115px;left:23px;}
+.btnGroup li{float:left;height:66px;margin-right:40px;color: #5DC7E5;font-size:14px;}
+.btnGroup a{font-weight:normal;color: #5DC7E5;font-weight:600}
+.btnGroup a:hover,.contentl a:hover{ text-decoration:none;}
+.banner img{width:414px;height:182px;}
+.banner .btnGroup a img,.btn_go img{width:6px;height:12px;margin-left:10px;}
+
+.content{width:400px;margin:20px auto 0;}
+.contentl{float:none;width:400px;}
+.contentl1{width:400px;height:157px;background:url(../images/conL1_bg.png) no-repeat; background-size:400px 157px;}
+.conLine{margin:20px 0 0 30px;}
+.contentl1 h2{padding:10px 0 0 30px;font:bold 14px/22px "PingFang SC";}
+.contentl1 p{width:300px;padding:12px 0 0 30px;font:200 12px/18px "PingFang SC";}
+.btn_demo{font-size:15px;font-weight: 600;}
+
+.contentl2{width:345px;margin:0 auto;overflow:hidden;}
+.contentl2 ul{float:none;width:345px;padding-top:5px; background-color:#151514}
+.conl2_tit{width:330px;height:60px;margin:25px 0 0 30px;font-size:18px;}	
+
+.conl2_txt{width:310px;height:95px;padding:20px 0 0 30px;font:200 12px/22px "PingFang SC";color: #E5E5E5;opacity: 0.6;}
+.conl2_btn{padding-bottom:20px;}
+.conl2_btn a,.contentr .more a{font-size:15px;font-weight: 600;}
+.contentl2 img{width:345px;height:422px;}
+.contentl2 .conl2_btn img{width:6px;height:12px;}
+.conl2_img { text-align:center}
+.conl2_img img{width:100%;max-width:300px;}
+
+.contentl3{width:400px;height:157px;margin-top:15px;background:url(../images/conL2_bg.png) no-repeat;background-size:400px 157px;}
+.contentl3 h2{width:313px;color: #E5E5E5;padding-top:5px;}
+.contentl3 .conLine{margin-top:25px;}
+.btn_go{font-size:15px;font-weight: 600;}
+.contentl3 p{padding-top:0;}
+.conl_txt{height:34px;overflow:hidden;}
+		
+.contentl4{width:400px;height:157px;margin-top:15px;background:url(../images/conL3_bg.png) no-repeat;background-size:400px 157px;overflow:hidden;}
+.conL14_r{position: absolute; top:20px;left:100px;width:340px;padding-left:0;}
+.conL14_r h2{padding-left:0;}
+.contentl4 .conLine{margin:0px 0 0 0;}
+.conL14_r p{width:300px;padding:5px 0 0 0;font:bold 14px "PingFang SC";}
+
+.contentr{float:none;width:360px;margin:20px auto 0;}
+.contentr dl{width:270px;}
+.conL14_r .btn_go{margin-top:20px;}
+}
+
+@media screen and (max-width:375px){
+.banner h2{width:250px;left:43px;}
+.btnGroup{left:43px;}
+
+.content{width:360px;margin:20px auto 0;}
+.contentl{float:none;width:380px;}
+.contentl1{width:360px;height:141px;background:url(../images/conL1_bg.png) no-repeat; background-size:360px 141px;}
+.contentl1 .btn_demo{margin-top:10px;font-size:14px;font-weight: 600;}
+
+.contentl2{width:345px;margin:0 auto;overflow:hidden;}
+.contentl2 ul{float:none;width:330px;padding-top:5px; background-color:#151514}
+.conl2_tit{width:330px;height:60px;margin:25px 0 0 20px;font-size:16px;font-weight: 600;}	
+.conl2_txt{padding-left:20px;}
+.conl2_btn{padding-left:0;}
+
+.contentl3{width:360px;height:141px;margin-top:15px;background:url(../images/conL2_bg.png) no-repeat;background-size:360px 141px;}
+.contentl3 h2{width:313px;color: #E5E5E5;padding-top:5px;}
+.contentl3 .conLine{margin-top:15px;}
+.btn_go{margin-top:10px;font-size:15px;font-weight: 600;}
+.contentl3 p{padding-top:0;}
+.conl_txt{height:20px;overflow:hidden;}
+		
+.contentl4{width:360px;height:141px;margin-top:15px;background:url(../images/conL3_bg.png) no-repeat;background-size:360px 141px;}
+.conL14_r{position: absolute; top:5px;left:80px;width:300px;padding-left:0;}
+.conL14_r h2{padding-left:0;}
+.contentl4 .conLine{margin:0px 0 0 0;}
+.conL14_r p{width:280px;padding:5px 0 0 0;font:200 12px "PingFang SC";}
+
+.contentr{float:none;width:360px;margin:20px auto 0;}
+.contentr dl{width:270px;}
+.conL14_r .btn_go{margin-top:20px;}
+
+}
+
+
+@media screen and (min-width:1050px){
+#index_x{ display:none}
+}
+@media screen and (max-width:780px)and (min-width:480px){	
+.banner{position:relative; z-index:9999;left:50%;margin-left:-390px;}
+.banner h2{width:300px;position:absolute;top:80px;left:53px;font-size:18px;line-height:35px;}
+.btnGroup{position:absolute;top:170px;left:53px;}
+.btnGroup li{float:left;height:66px;margin-right:45px;color: #5DC7E5;font-size:16px;}
+.btnGroup a{color: #5DC7E5;font-family: "PingFang SC";font-weight: normal;color: #5DC7E5;}
+.btnGroup a:hover,.contentl a:hover{ text-decoration:none;}
+.banner img{width:780px;height:343px;}
+.banner .btnGroup a img,.btn_go img{width:6px;height:12px;margin-left:10px;}
+
+.content{width:700px;margin:20px auto 0;}
+.contentl{float:none;width:700px;}
+.contentl1{width:700px;height:274px;background:url(../images/conL1_bg.png) no-repeat; background-size:700px 274px;}
+.conLine{margin:50px 0 0 30px;}
+.contentl1 h2{padding:18px 0 0 30px;font:bold 18px/26px "PingFang SC";}
+.contentl1 p{width:300px;padding:20px 0 0 30px;font:200 12px/22px "PingFang SC";}
+.btn_demo{font-size:15px;font-weight: 600;}
+
+.contentl2{width:700px;overflow:hidden;}
+.contentl2 ul{float:left;width:345px;margin-top:15px;background-color:#151514}
+.conl2_tit{width:330px;height:60px;margin:25px 0 0 30px;font-size:18px;}	
+
+.conl2_txt{width:310px;height:95px;padding:20px 0 0 30px;font:200 12px/22px "PingFang SC";color: #E5E5E5;opacity: 0.6;}
+.conl2_btn{padding-bottom:20px;}
+.conl2_btn a,.contentr .more a{font-size:15px;font-weight: 600;}
+.contentl2 img{width:345px;height:422px;}
+.contentl2 .conl2_btn img{width:6px;height:12px;}
+
+.contentl3{width:700px;height:274px;margin-top:15px;background:url(../images/conL2_bg.png) no-repeat;background-size:700px 274px;}
+.contentl3 h2{width:313px;color: #E5E5E5;}
+.contentl3 .conLine{margin-top:35px;}
+.btn_go{font-size:15px;font-weight: 600;}
+.contentl3 p{padding-top:10px;}
+		
+.contentl4{width:700px;height:274px;margin-top:15px;background:url(../images/conL3_bg.png) no-repeat;background-size:700px 274px;}
+.conL14_r{position: absolute; top:20px;right:10px;width:360px;padding-left:0;}
+.conL14_r h2{padding-left:0;}
+.contentl4 .conLine{margin:35px 0 0 0;}
+.conL14_r p{width:360px;padding:20px 0 0 0;font:bold 14px "PingFang SC";}
+
+.contentr{float:none;width:500px;margin:20px auto 0;overflow:hidden; }
+.contentr dl{width:270px;}
+
+}
+
