@@ -113,14 +113,13 @@
       </div>
    </div> 
    
-   <div class="wrapCon">
+  
     <div class="wrapCon1">
-     <div class="con_page8">
+      <div class="con_page8">
        <h2>POFID RoadMap</h2>
        
        
-      <div class="mapCon" id="ISL_Cont_1">
-         <div class="box" id="boxid">    
+      <div class="mapCon">
            <div class="mapWrap">
             <h3>Development</h3>        
              <div class="list">
@@ -225,12 +224,25 @@
                    </dl>
                  </div>
              </div>
-             
+             <div class="list">
+                 <p class="map_dot map_dot8"><img src="images/map_dot.png"></p>
+                 <div class="mapCon1 mapCon8">
+                   <ul>
+                     <li class="maptl">2021</li>
+                     <li class="maptr">Backing Assets</li>
+                   </ul>
+                   <dl>
+                     <dt>Other Wealth Management Products</dt>
+                     <dd>Open Access to Third-party Financial </dd>
+                     <dd>Products and Trading Channels</dd>
+                   </dl>
+                 </div>
+             </div>
              
              
            </div>
            
-           <div class="mapWrap">  
+           <div class="mapWrap" style="display:none;">  
              <h3>Stability</h3>       
              <div class="list">
                  <p class="map_dot"><img src="images/map_dot.png"></p>
@@ -301,7 +313,7 @@
 
            </div>
            
-           <div class="mapWrap">  
+           <div class="mapWrap" style="display:none;">  
              <h3>Governance</h3>       
              <div class="list">
                  <p class="map_dot"><img src="images/map_dot.png"></p>
@@ -367,7 +379,7 @@
             
            </div>
            
-           <div class="mapWrap">  
+           <div class="mapWrap" style="display:none;">  
              <h3>Incentives</h3>       
              <div class="list">
                  <p class="map_dot"><img src="images/map_dot.png"></p>
@@ -441,25 +453,27 @@
             
            </div>
          </div>  
+         
+       <ul class="mapalt"> 
+        <li class="current">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+       </ul> 
       </div> 
-        
        
        
-        <p class="LeftBotton" id='LeftArr'></p>
-        <p class="RightBotton" id='RightArr'></p>
-     
+      
      </div>
-    </div>
-   </div>  
+    
+    
     
     <!--footer-->
     <div class="footer">
      <div class="footerC">
        <dl class="address">
         <dt>Address</dt>
-        <dd>4615 N. University Drive,</dd>
-        <dd>Coral Springs, FL 33067</dd>
-        <dd>(800) 674-2959</dd>
+        <dd>4615 N. University Drive,Coral Springs, FL 33067(800)674-2959</dd>
        </dl>
        <dl>
         <dt>Documents</dt>
@@ -522,32 +536,29 @@ $(document).ready(function(){
 			$(".menu li").removeClass("sel");
 		   }
 	    ) 
+  //map
+ $(".mapalt li").each(function(index){		  
+		$(this).click(function(){
+		   $(".mapalt li").removeClass("current");
+		   $(".mapWrap").hide();
+		   $(this).addClass("current");
+		   $(".mapWrap:eq("+index+")").show();
+			}) 		 
+		})		
  
 });
 </script>
-<script type="text/javascript"  src="js/ScrollPic.js"></script>
-<script>
- $(function(){
-	if($('#boxid .mapWrap').length > 1){	 
-		var scrollPic_02 = new ScrollPic();
-		scrollPic_02.scrollContId   = "ISL_Cont_1"; 
-		scrollPic_02.arrLeftId      = "LeftArr";
-		scrollPic_02.arrRightId     = "RightArr"; 
-
-		scrollPic_02.frameWidth     = 1200;
-		scrollPic_02.pageWidth      = 1200; 
-
-		scrollPic_02.speed          = 10; 
-		scrollPic_02.space          = 10; 
-		scrollPic_02.autoPlay       = false; 
-		scrollPic_02.autoPlayTime   = 3; 
-
-		scrollPic_02.initialize();   
-	
-	}
-	
-	
-	})	
-</script> 
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+<script type="text/javascript">
+            $('.mapWrap').niceScroll({
+                cursorcolor: "#292929",
+                cursoropacitymax: 1,
+                touchbehavior: true, 
+                cursorwidth: "5px", 
+                cursorborder: "0",  	
+                cursorborderradius: "5px",
+                autohidemode: true 
+            });
+        </script>
 </body>
 </html>

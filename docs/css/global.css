@@ -70,7 +70,7 @@ input{font-size:12px;outline:0 none;}
 .footer dd{font-size:12px;font-style: normal;font-weight: normal;line-height: 2.5;}
 .footer .address dd{line-height:1.8}
 .footer dd a{color:#E5E5E5;opacity:0.6}
-.footer .address{margin-right:350px;}
+.footer .address{width:367px;margin:40px 185px 0 0;}
 
 .footer dt{margin-bottom:15px;font-size:14px;font-weight:bold;color:#BDBDBD}
 .footer .news{font-weight:900;}
@@ -85,18 +85,17 @@ input{font-size:12px;outline:0 none;}
 
 /*pages*/	
 .pages{width:150px;float:right}
-.pages a,.pages span{float:left;display:inline-block;border:1px solid #ece7dc;border-radius:3px;text-align:center}
-.pages a{width:24px;height:24px;margin:3px 3px 3px 8px;color:#fff;font:500 14px/24px "Verdana"; text-align:center}
+.pages a,.pages span{float:left;display:inline-block;border:1px solid #828282;border-radius:3px;text-align:center}
+.pages a{width:24px;height:24px;margin:3px 3px 3px 8px;color:#828282;font:500 14px/24px "Arial"; text-align:center}
 .pages .prev,.pages .next,.pages .prev:hover,.pages .next:hover{width:24px;height:24px;line-height:25px;margin:3px 4px 0 8px;font-size:14px;color:#828282;}
 .pages .current,.pages a:hover{width:24px;height:24px;line-height:24px;margin:3px 3px 3px 8px;border:1px solid #5DC7E5;color:#fff;}
 .pages a:hover,.pages .prev:hover{text-decoration:none;}
-.pages  .more_p{border:none;font-size:14px;margin:3px 3px 0 10px;color:#fff;}
+.pages  .more_p{border:none;font-size:14px;margin:3px 3px 0 10px;color:#828282;}
 
 
 .wrap{width:100%;overflow:hidden;background: #161514; }
 .banner{position:relative; z-index:9999;left:50%;margin-left:-683px;}
 .banner_bg{width:1366px;height:600px;background:url(../images/banner1.png) 0 0 no-repeat;background-size: 1366px 600px}
-.banner_bg2 img{width:100%;max-width:1366px;}
 .banner h2{width:550px;position:absolute;top:200px;left:83px;font-size:32px;opacity: 0.9;color:rgba(233,233,233,0.9);font-weight:500;line-height:50px;font-family:"Futura";font-style: normal;
 font-weight: 500;letter-spacing: 0.06em;}
 .btnGroup{position:absolute;top:320px;left:83px;}
@@ -104,7 +103,7 @@ font-weight: 500;letter-spacing: 0.06em;}
 .btnGroup a{color: #5DC7E5;font-family: "PingFang SC";font-weight: normal;color: #5DC7E5;}
 .btnGroup a:hover,.contentl a:hover{ text-decoration:none;}
 
-.banner img{width:1366px;height:665px;}
+
 .banner .btnGroup a img,.btn_go img{width:6px;height:12px;margin-left:10px;}
 
 
@@ -133,20 +132,21 @@ font-weight: 500;letter-spacing: 0.06em;}
 .menu .sel dl{text-align:left}
 .menu li .cur{background:rgba(51,51,51,0.6);}
 
+.banner_bg{width:414px;height:182px;background:url(../images/banner1.png) 0 0 no-repeat;background-size: 414px 182px}
 
 .footer{width:auto;height:400px;margin:40px auto 0;overflow:hidden}
 .footerC{width:380px;margin:0 auto;}
-.footer dl{float:left;font-size:12px;margin:0 60px 15px 20px;}
-.footer dl:nth-child(2),.footer dl:nth-child(4){margin-right:0;}
-.footer dl:nth-child(4),.footer dl:nth-child(5){margin-left:95px;}
-.footer dl:nth-child(4){margin-left:85px;}
+.footer dl{float:left;font-size:12px;margin:0 60px 15px 13px;}
+.footer dl:nth-child(2),.footer dl:nth-child(4){margin-right:50px;}
+.footer dl:nth-child(5){margin-left:10px;}
+.footer dl:nth-child(3){margin-left:0;}
 .footer dt{margin-bottom:10px;}
 .footer p{width:360px;margin:20px auto 0;padding-top:15px;font-size:12px;}
 
 .footer .news dt{margin-bottom:20px;}
 .footer .address dd{line-height:1.6}
 .footer dd{line-height:1.8}
-.footer .address{margin-right:55px;}
+.footer .address{width:367px;margin:0 340px 30px 10px;}
 
 }
 
@@ -178,8 +178,9 @@ font-weight: 500;letter-spacing: 0.06em;}
 .menu li img{margin-left:0;vertical-align:1px;}
 .menu dl{position:absolute;top:33px;left:0;}
 
+.banner_bg{width:780px;height:343px;background:url(../images/banner1.png) 0 0 no-repeat;background-size: 780px 343px}
 
-.footer{width:auto;height:410px;margin:40px auto 0;overflow:hidden}
+.footer{width:auto;height:500px;margin:40px auto 0;overflow:hidden}
 .footerC{width:750px;margin:0 auto;overflow:hidden;}
 .footer dl{float:left;font-size:12px;margin:0 20px 15px 15px;}
 ,.footer dl:nth-child(5){margin-left:0;margin-right:0;}
@@ -189,7 +190,7 @@ font-weight: 500;letter-spacing: 0.06em;}
 .footer .news dt{margin-bottom:20px;}
 .footer .address dd{line-height:1.6}
 .footer dd{line-height:1.8}
-.footer .address{margin-right:50px;}
+.footer .address{width:367px;margin:0 350px 50px 20px;}
 
 
 }

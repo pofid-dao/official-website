@@ -22,7 +22,7 @@
 .Staking2{width:132px;height:132px;margin:0 auto;background:url(../images/Staking2@2x.png) no-repeat; background-size:132px 132px; }
 .Equity{width:132px;height:132px;margin:0 auto;background:url(../images/Equity@2x.png) no-repeat; background-size:132px 132px; }
 .Govern{width:132px;height:132px;margin:0 auto;background:url(../images/Govern@2x.png) no-repeat; background-size:132px 132px; }
-.Get_PFID{width:132px;height:132px;margin:0 auto;background:url(../images/Staking2@2x.png) no-repeat; background-size:132px 132px; }
+.Get_PFID{width:132px;height:132px;margin:0 auto;background:url(../images/Staking2@2x.png) no-repeat;background-size:132px 132px; }
 .Token{width:132px;height:132px;margin:0 auto;background:url(../images/Token@2x.png) no-repeat; background-size:132px 132px; }
 .Destroy{width:132px;height:132px;margin:0 auto;background:url(../images/Destroy@2x.png) no-repeat; background-size:132px 132px; }
 
@@ -31,15 +31,15 @@
 .nov_img2{background:url(../images/Wallet@2x.png) no-repeat; background-size:172px 172px; }
 .nov_img3{background:url(../images/Staking@2x.png) no-repeat; background-size:172px 172px; }
 /*daos*/
-.con_page1 h2{font-size:32px;line-height:45px;}
-.con_page1 p{margin-top:12px;font-size:14px;line-height:20px;text-align: center;color: #E5E5E5;opacity: 0.9;}
+.con_page1 h2{font-size:32px;line-height:45px;font-family:"PingFang TC";}
+.con_page1 p{margin-top:12px;font-size:14px;font-weight:500;line-height:20px;text-align: center;color:rgba(229, 229, 229, 0.9);}
 .change{margin-top:24px;}
 .chg_tit{width:1200px;height:54px;overflow:hidden;}
-.chg_tit li{float:left;width:300px;height:54px;line-height:54px;font-weight:500;font-size:18px;text-align:center;color:rgba(229, 229, 229, 0.9);border-top:3px solid #686868;cursor:pointer;background:rgba(189,189,189,0.1);}
+.chg_tit li{float:left;width:300px;height:54px;line-height:54px;font-family:"PingFang TC";font-weight:500;font-size:18px;text-align:center;color:rgba(229, 229, 229, 0.9);border-top:3px solid #686868;cursor:pointer;background:rgba(189,189,189,0.1);}
 .chg_tit .on{color:rgba(93, 199, 229, 0.9);border-top:3px solid #5DC7E5;background:#252626;}
 .sub_con{width:1200px;height:300px;margin:24px 0 0 24px;overflow:hidden;}
 .sub_con dt{float:left;}
-.pic_txt{float:left;width:680px;margin:10px 0 0 30px;font-size:14px;line-height: 30px;color:rgba(233, 233, 233, 0.8);}
+.sub_con .pic_txt{float:left;width:680px;margin:10px 0 0 30px;font-size:14px;font-family:"PingFang TC";line-height: 30px;color:rgba(233, 233, 233, 0.6);}
 
 .con_page3 dl{float:none;width:760px;margin:100px auto 30px;}
 .con_page3 dt{float:left;}
@@ -54,10 +54,10 @@
 /*contact*/
 .con_page4{width:1200px;margin:0 auto;padding-top:80px;overflow:hidden;}
 .con_page4c{margin:0 0 0 315px;color:#fff;overflow:hidden;}
-.con_page4 h2{font-size:28px;font-weight:bold;color:#F2F2F2; text-align:center}
-.con_page4 p{width:1200px;padding:10px 0 30px 0;margin-bottom:20px;border-bottom:1px solid #4F4F4F;font-size:14px;color: #E5E5E5;font-weight: 600;opacity: 0.9; text-align:center;}
+.con_page4 h2{font-size:28px;font-weight:500;color:#F2F2F2; text-align:center}
+.con_page4 p{width:1200px;padding:10px 0 30px 0;margin-bottom:20px;border-bottom:1px solid #4F4F4F;font-size:14px;color:rgba(229, 229, 229, 0.9);font-weight: 500;text-align:center;}
 .con_page4c dt{float:left;width:108px;height:108px;}
-.con_page4c .msg{margin:45px 0 0 10px;float:left;color:#E9E9E9;opacity:0.9;}
+.con_page4c .msg{margin:45px 0 0 10px;float:left;color:rgba(233, 233, 233, 0.6);font-size:12px;line-height:26px;}
 .con_page4c a{color:#E9E9E9;}
 .con_page4c dl{width:1200px; overflow:hidden;}
 .Marketing{background:url(../images/Marketing@2x.png) no-repeat; background-size:108px 108px;}
@@ -68,23 +68,23 @@
 .con_page5{width:1200px;margin:0 auto;padding-top:40px;overflow:hidden;}
 .con_page5 h2{padding-top:30px;color:#fff;font-weight:500;font-size: 26px;line-height: 36px;color: #E0E0E0;opacity: 0.9; text-align:center;}
 .con_page5 p{width:732px;margin:0 auto;margin-top:20px;font-size: 14px;line-height: 26px;text-align: justify;color: #E5E5E5;opacity: 0.6;font-weight:500}
-.con_iteml{float:left;width:852px;height:458px;background:url(../images/activity_bg.png) no-repeat;}
+.con_iteml{float:left;width:860px;height:458px;background:url(../images/activity_bg.png) no-repeat;background-size:860px 458px; }
 .con_itemr{float:right;width:330px;}
 .con_itemr dl{width:330px;}
 .con_itemr dt{width:300px;height:42px;line-height:42px;padding-left:30px;background:rgba(18, 18, 18, 0.8);font-size:16px;color:rgba(229, 229, 229, 0.9);font-weight:500;}
 .con_itemr dd{height:408px;background:#323131;opacity: 0.6;box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);}
 .con_itemr dd li{height:52px;line-height:52px;margin:0 30px;font-weight:500;font-size:12px;color:rgba(233, 233, 233, 0.6);border-bottom:1px solid #555}
 .con_itemr a{color:rgba(233, 233, 233, 0.6);}
-.con_itemr a:hover{text-decoration:none;color:#1DC9E9;}
+.con_itemr a:hover{ text-decoration:none;color:rgba(29, 201, 233, 1);}
 )
 /*team*/
 .con_page6{width:1200px;margin:0 auto;overflow:hidden;}
-.con_page6 h2{padding-top:80px;font-weight:500;font-size:32px;line-height:50px;color: #fff;text-align:center}
-.con_page6 .team{width:1198px;margin:10px auto 0;font-weight: 600;font-size: 14px;line-height: 26px;color: #7F7F7F;}
+.con_page6 h2{padding-top:80px;font-weight:500;font-size:32px;line-height:45px;color: #F2F2F2;font-family:"PingFang TC";text-align:center}
+.con_page6 .team{width:1198px;margin:10px auto 0;font-weight: 500;font-size: 14px;line-height: 26px;color: #7F7F7F;font-family:"PingFang TC";}
 .teamC{width:1200px;margin:60px auto 0;overflow:hidden;}
 .teamC dl{float:left;width:210px;margin:0 285px 50px 0;text-align:center;}
 .teamC dt img{width:100%;max-width:210px;border-radius:50%;}
-.teamC dd{width:210px;margin-top:20px;font-size:18px;color: #E5E5E5;opacity: 0.9;}
+.teamC dd{width:210px;margin-top:20px;font-size:18px;color: #E5E5E5;opacity: 0.9;font-family:"PingFang TC";}
 .teamC dd p{margin-top:-5px;font-size:12px;color: #E9E9E9;opacity: 0.6;}
 .con_page6 a{color:#E5E5E5;}
 .con_page6 a:hover{text-decoration:none}
@@ -116,7 +116,7 @@
 .page6R img{width:100%;}
 .icon_menu2 {float:right;display:none;}
 .page6L2{border-top:1px solid #333}
-
+.page6Rc p{margin-bottom:8px;}
 .fixer2{position:fixed;top:20px;_position:absolute;}
 
 
@@ -128,6 +128,9 @@
 .mapWrap{float:left;width:1200px;height:440px;padding-bottom:110px;background:url(../images/map_line.png) center 52% repeat-x;overflow:hidden;overflow-x:auto;position:relative;}
 .box{float:left;}
 .mapWrap h3{ position:absolute;top:-10px;left:45%; z-index:9999999}
+.mapalt{width:140px;position:absolute;top:680px;left:50%;margin-left:-70px;}
+.mapalt li{float:left;width:10px;height:10px;border-radius:50%;margin-left:10px;background-color:#939292;cursor:pointer; text-indent:-999999px}
+.mapalt .current{background-color:#5dc7e5;}
 
 .map_line{width:2px;background:url(../images/map_line.png) repeat-x;}
 .map_dot img{position:absolute;top:280px;left:0;}
@@ -189,8 +192,8 @@
 .mapCon1 dd{font-size:12px;line-height:20px;color:rgba(229,229,229,0.6);font-weight:500}
 .mapCon1 .maptT1{color:rgba(229,229,229,0.6);}
 
-.LeftBotton{position:absolute;top:670px;left:50%;width:20px;height:20px;background:url(../images/arrow_l2.png) no-repeat; background-size:20px 20px;border:1px dashed #5c5c5c;cursor:pointer}
-.RightBotton{position:absolute;top:670px;left:52.5%;width:20px;height:20px;background:url(../images/arrow_r2.png) no-repeat; background-size:20px 20px;border:1px dashed #5c5c5c;cursor:pointer}
+.LeftBotton{position:absolute;top:670px;left:50%;width:20px;height:20px;background:url(../images/arrow_left.png) no-repeat; background-size:20px 20px;cursor:pointer}
+.RightBotton{position:absolute;top:670px;left:52.5%;width:20px;height:20px;background:url(../images/arrow_right.png) no-repeat; background-size:20px 20px;cursor:pointer}
 
 @media screen and (max-width:480px){
 .wrap{width:100%;overflow:hidden;background: #161514; }
@@ -245,10 +248,8 @@
 /*map*/
 .con_page8{width:360px;margin:0 auto;padding-top:40px;}
 .con_page8 h2{font-size:28px;}
-.mapCon{width:360px;height:440px;margin:80px auto;background:url(../images/map_line.png) center center repeat-x;overflow:hidden;position:relative; overflow-x:scroll}
-.LeftBotton{display:none}
-.RightBotton{display:none}
-
+.mapCon{width:360px;}
+.mapWrap{float:left;width:360px;height:440px;padding-bottom:110px;}
 
 .icon_menu2 {float:right;display:block;}
 .fixer2{position:relative;top:0;_position:relative;}
@@ -322,9 +323,8 @@
 /*map*/
 .con_page8{width:700px;margin:0 auto;padding-top:40px;}
 .con_page8 h2{font-size:28px;}
-.mapCon{width:700px;height:440px;margin:80px auto;background:url(../images/map_line.png) center center repeat-x;overflow:hidden;position:relative; overflow-x:scroll}
-.LeftBotton{display:none}
-.RightBotton{display:none}
+.mapCon{width:700px;margin:0 auto;padding-top:20px;overflow:hidden;}
+.mapWrap{float:left;width:700px;height:440px;padding-bottom:110px;background:url(../images/map_line.png) center 52% repeat-x;overflow:hidden;overflow-x:auto;position:relative;}
 
 
 .icon_menu2 {float:right;display:block;}
